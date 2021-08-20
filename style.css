@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu Bar */
+
+.menu {
+    background: rgb(0, 174, 255);
+}
+
+.menu ul {
+    width: 800px;
+    margin: auto;
+}
+
+.menu ul li {
+    display: inline-block;
+    background: rgb(21, 79, 187);
+    margin-right: -4px;
+    border-right: 1px solid #ddd;
+}
+
+.menu ul:first-child{
+    border-left: 1px solid #ddd;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 20px;
+    font-size: 25px;
+    color: #fff;
+    padding: 20px;
+}
+
+.menu ul li:hover{
+    background: crimson;
+    color: #ddd;
+    transition: .4s;
+}
+
+
+/* About */
+
+.profile{
+    width: 900px;
+    margin: auto;
+}
+
+
+/* Footer Section */
+
+.footer{
+    background: rgb(0, 162, 255);
+    width: 1200px;
+    margin: auto;
+}
+
+.text h2{
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    font-size: 40px;
+}
